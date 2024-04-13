@@ -23,7 +23,7 @@ builder.Services.AddHealthChecks();
 
 
 var app = builder.Build();
-app.UseHealthChecks("/healthcheck");
+app.UseHealthChecks("/health");
 
 
 // Configure the HTTP request pipeline.
